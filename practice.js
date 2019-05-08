@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+var me={
+  name: 'Jaiden',
+  age: 22
+}
+me.name
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,13 +28,22 @@
 */
 
 //Code here
-
+var favoriteThings={
+  band:'Dhaka Brakha ',
+  food:'Steak',
+  person: 'Mom',
+  book:'Tao',
+  movie:'The spotless mind of eternal sunshine ',
+  holiday: 'Beltane'
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
+favoriteThings.car='Tesla'
+favoriteThings.brand='Beehive Buds Co'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,6 +51,8 @@
 */
 
 //Code here
+favoriteThings.food="Chicken Nuggets"
+favoriteThings.book="Harry Potter"
 
 ////////// PROBLEM 3 //////////
 
@@ -50,7 +65,9 @@
 */
 
 //Code here
-
+var backPack={
+  
+}
 /*
   After you do the above, alert your entire backPack object.
 */
